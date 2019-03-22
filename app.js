@@ -1,13 +1,15 @@
 new Vue({
   el: '#vue-app' ,
   data: {
-    name: 'riyad' , 
-    a: 0
+    
+    statusR  : true ,
+    statusG : false
     
   } , 
   computed : {
-  	addToA: function(){
-  		return this.a + 10 ;
-  	}
+  	classList : function(){
+  		return { red: this.statusR , 
+  			green: this.statusG } 
+  	} 
   }
 })

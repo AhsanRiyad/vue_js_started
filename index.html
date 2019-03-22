@@ -13,41 +13,10 @@
 
     <div id="vue-app">
       
-      <table>
-        <tr>
-          <td>
-            name: 
-          </td>
-        <button v-on:click="a++" > Add to A</button>
-          <td>
-            
-          </td>
-        <td>
-          
-        {{ addToA }}
-
-        </td>
-
-
-        </tr>
-
-        <tr>
-          <td>
-            id:
-          </td>
-
-          <td>
-           
-          </td>
-          
-          <td>
-            
-          </td>
-
-        </tr>
-
-
-      </table>
+      <button v-on:click="statusR = !statusR">
+        change class
+      </button>
+      <h1 v-bind:class="classList" >hello riyad</h1>
 
 
     </div>
