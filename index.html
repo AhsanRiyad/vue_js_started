@@ -12,22 +12,19 @@
 
   <div id="app-one">
 
-  <h1>
-    {{title}}
-  </h1>
-
-  </div>
-
-
-  <div id="app-two">
       
-    <greeting></greeting>
-    <button v-on:click="changeT()">
-      change title of one
-    </button>
+    <input type="text" ref="input1" v-on:keyup="getInput()">
+    <p> {{ valueI }}  --- values</p>
 
+    <h1 ref="h1_tag" >hellow world</h1>
+
+    <p>
+      inner html value --- {{ innerT  }}
+    </p>
     
+
   </div>
+
 
 
 
