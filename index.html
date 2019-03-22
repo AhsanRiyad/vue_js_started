@@ -30,8 +30,13 @@
           </td>
 
           <td>
-            <input type="text" v-on:keyup.enter="NameKeyUp" >
+            <input type="text" v-model="name" >
           </td>
+          
+          <td>
+            {{ name }}
+          </td>
+
         </tr>
 
 
