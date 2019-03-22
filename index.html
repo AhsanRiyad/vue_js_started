@@ -25,6 +25,24 @@
 
       <p v-html="fullTag" ></p>
 
+      
+      <div>
+        <button @click="add(10)">
+          Add
+        </button>
+        <button @click="subtract(10)">
+          subtract
+        </button>
+          
+        <h1>
+          {{ age  }}
+        </h1>
+
+      </div>
+
+
+      <div id="canvas" v-on:mousemove="updateXY" > {{ x }} ,  {{ y }} </div>
+
 
     </div>
 
