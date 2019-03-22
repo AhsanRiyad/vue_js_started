@@ -13,10 +13,27 @@
 
     <div id="vue-app">
       
-      <button v-on:click="statusR = !statusR">
-        change class
-      </button>
-      <h1 v-bind:class="classList" >hello riyad</h1>
+      
+    <button v-on:click='!error'>
+      show
+    </button>
+    
+    <button v-on:click='!success'>
+      hide
+    </button>
+
+
+    <p v-if="error">
+      show this
+    </p>
+      
+    
+
+    <p v-else-if="success">
+      
+      hide this
+
+    </p>
 
 
     </div>

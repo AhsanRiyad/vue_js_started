@@ -1,15 +1,9 @@
 new Vue({
   el: '#vue-app' ,
   data: {
+    error: true,
+    success: false
     
-    statusR  : true ,
-    statusG : false
     
-  } , 
-  computed : {
-  	classList : function(){
-  		return { red: this.statusR , 
-  			green: this.statusG } 
-  	} 
-  }
+  } 
 })
