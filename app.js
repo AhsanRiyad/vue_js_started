@@ -2,11 +2,12 @@ new Vue({
   el: '#vue-app' ,
   data: {
     name: 'riyad' , 
+    a: 0
     
   } , 
-  methods: {
-  	NameKeyUp: function(){
-  		console.log('name key up input') ; 
+  computed : {
+  	addToA: function(){
+  		return this.a + 10 ;
   	}
   }
 })
