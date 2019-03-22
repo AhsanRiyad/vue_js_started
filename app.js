@@ -25,6 +25,9 @@ new Vue({
   	} , 
   	subtract : function(val){
   		this.age -= val ; 
+  	},
+  	showAlert : function(){
+  		alert('event fired');
   	}
   }
 })

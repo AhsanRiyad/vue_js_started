@@ -27,7 +27,7 @@
 
       
       <div>
-        <button @click="add(10)">
+        <button @click.once="add(10)">
           Add
         </button>
         <button @click="subtract(10)">
@@ -42,9 +42,14 @@
 
 
       <div id="canvas" v-on:mousemove="updateXY" > {{ x }} ,  {{ y }} </div>
+      
+
+    <a v-on:click.prevent="showAlert()" href="https://facebook.com" > facebook </a>
 
 
     </div>
+
+    
 
 
 
