@@ -1,12 +1,14 @@
 new Vue({
   el: '#vue-app' ,
   data: {
-    
-    characters: ['hi' , 'hello' , 'go'],
-    objArray : [
-    {name: 'riyad'} ,
-    {name: 'Ahsan'}
-     ]
-      
-  } 
+
+    hWidth: 400 ,
+    name: 'riyad'
+  }, 
+  methods: {
+  	sub : function(){
+  		
+  		this.hWidth -=50 ;
+  	}
+  }
 })

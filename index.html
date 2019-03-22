@@ -13,55 +13,34 @@
 
     <div id="vue-app">
       
-      <h1>example 1</h1>
-      <li v-for="i in characters" > {{i}}</li>
       
-      <h1>example 2</h1>
-      <h1 v-for="i in characters">
-        <li>
-          {{i}} 
-        </li>
-      </h1>
-
-
-      <h1>example 3</h1>
-      <template v-for="i in characters">
-        <li>
-          {{i}} 
-        </li>
-      </template>
-
-       <h1>example 3</h1>
-      <template v-for="(i , index ) in characters">
-        <li>
-          {{index}} .  {{i}} 
-        </li>
-      </template>
-
-      <h1>example 4</h1>
-      <template v-for="i in objArray">
-        <li>
-          {{i.name}} 
-        </li>
-      </template>
-
-
+    <div id="burst" >
       
-  <h1>example 5</h1>
-      <template v-for="i in objArray">
-      <h6 v-for="(val , key) in i">
-        <p>
-           {{key}} -- {{val}} 
-        </p>
-      </h6>
-      </template>
-
+        <div class="colorM" >
+          
+        </div>
 
     </div>
 
-    
+<div id="bag-h">
+  
+      <div class="health" v-bind:style="{ width: hWidth + '%' }">
+        
+      </div>
+</div>
+  
+
+  <button class="punch" v-on:click="sub">
+  punch 
+</button>
+
+{{ hWidth }}
+
+  </div>    
 
 
+
+ 
 
     <script src="app.js"></script>
   </body>
