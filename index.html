@@ -13,27 +13,48 @@
 
     <div id="vue-app">
       
+      <h1>example 1</h1>
+      <li v-for="i in characters" > {{i}}</li>
       
-    <button v-on:click='!error'>
-      show
-    </button>
-    
-    <button v-on:click='!success'>
-      hide
-    </button>
+      <h1>example 2</h1>
+      <h1 v-for="i in characters">
+        <li>
+          {{i}} 
+        </li>
+      </h1>
 
 
-    <p v-if="error">
-      show this
-    </p>
+      <h1>example 3</h1>
+      <template v-for="i in characters">
+        <li>
+          {{i}} 
+        </li>
+      </template>
+
+       <h1>example 3</h1>
+      <template v-for="(i , index ) in characters">
+        <li>
+          {{index}} .  {{i}} 
+        </li>
+      </template>
+
+      <h1>example 4</h1>
+      <template v-for="i in objArray">
+        <li>
+          {{i.name}} 
+        </li>
+      </template>
+
+
       
-    
-
-    <p v-else-if="success">
-      
-      hide this
-
-    </p>
+  <h1>example 5</h1>
+      <template v-for="i in objArray">
+      <h6 v-for="(val , key) in i">
+        <p>
+           {{key}} -- {{val}} 
+        </p>
+      </h6>
+      </template>
 
 
     </div>

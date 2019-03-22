@@ -1,9 +1,12 @@
 new Vue({
   el: '#vue-app' ,
   data: {
-    error: true,
-    success: false
     
-    
+    characters: ['hi' , 'hello' , 'go'],
+    objArray : [
+    {name: 'riyad'} ,
+    {name: 'Ahsan'}
+     ]
+      
   } 
 })
