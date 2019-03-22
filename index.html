@@ -12,39 +12,30 @@
 
 
     <div id="vue-app">
-      <h1>{{name}}</h1>
-      <p>{{ job}} </p>
-    
-      <p> {{ greet() }} </p>
-      <p>{{ time('morning') }}</p>
-
-      <!-- tag bind in the date -->
-      <a v-bind:href="website"> riyad facebook</a>
-
-      <!-- html element bind in the field -->
-
-      <p v-html="fullTag" ></p>
-
       
-      <div>
-        <button @click.once="add(10)">
-          Add
-        </button>
-        <button @click="subtract(10)">
-          subtract
-        </button>
-          
-        <h1>
-          {{ age  }}
-        </h1>
+      <table>
+        <tr>
+          <td>
+            Name:
+          </td>
 
-      </div>
+          <td>
+            <input type="text" v-on:keyup="NameKeyUp" >
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            id:
+          </td>
+
+          <td>
+            <input type="text" v-on:keyup.enter="NameKeyUp" >
+          </td>
+        </tr>
 
 
-      <div id="canvas" v-on:mousemove="updateXY" > {{ x }} ,  {{ y }} </div>
-      
-
-    <a v-on:click.prevent="showAlert()" href="https://facebook.com" > facebook </a>
+      </table>
 
 
     </div>
