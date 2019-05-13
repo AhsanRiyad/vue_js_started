@@ -1,4 +1,19 @@
-new Vue({
+ Vue.component('greetings' , { 
+
+ 	template: '<p>Hellow , {{ name }} , you studied in {{ varstiy }} </p>',
+ 	data: function(){
+ 		return {
+ 			name: 'Riyad',
+ 			varstiy: 'AIUB'
+ 		}
+ 	}
+
+
+
+  });
+
+
+ var obj1 = new Vue({
     el: '#app',
     data: {
         name: 'Riyad',
@@ -22,3 +37,7 @@ new Vue({
     	}
     }
 });
+
+
+
+
