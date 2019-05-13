@@ -2,7 +2,8 @@ new Vue({
     el: '#app',
     data: {
         name: 'Riyad',
-        website: 'http://www.riyadahsan.com'
+        website: 'http://www.riyadahsan.com',
+        count: 0
     }, 
     methods: {
     	time: function(){
