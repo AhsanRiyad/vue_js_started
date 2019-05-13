@@ -4,7 +4,8 @@ new Vue({
         name: 'Riyad',
         website: 'http://www.riyadahsan.com',
         count: 0,
-        val: ''
+        val: '',
+        cond: 'riyad'
     }, 
     methods: {
     	time: function(){
