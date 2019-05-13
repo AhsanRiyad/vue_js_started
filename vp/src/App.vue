@@ -7,6 +7,10 @@
   <p>
     this is root varable {{ msg }}
   </p>
+  
+  
+  <comp2></comp2>
+
 
 
   </div>
@@ -14,11 +18,13 @@
 
 <script>
 
-import Comp from './comp1.vue'
+import Comp from './comp1.vue';
+import Comp2 from './comp2.vue';
 
 export default {
   components: {
-    'comp' : Comp
+    'comp' : Comp,
+    'comp2' : Comp2
   },
   name: 'app',
   data () {

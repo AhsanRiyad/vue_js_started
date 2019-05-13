@@ -1,17 +1,20 @@
 <template>
-	<div>
+	<div id="app">
 		
 			<h1>this is child  , {{ var1 }}</h1>
 			<button v-on:click='evnt()'>
 				click it
 			</button>
-			
+
 	</div>
 </template>
 
 
 
 <script>
+
+	import { bus } from './main';
+
 	export default{
 		props: ['Msg'],
 		data(){
@@ -22,7 +25,7 @@
 		},
 		methods: {
 			evnt: function(){
-				this.$emit('changeT' , 'valu1');
+				bus.$emit('changeT' , 'valu1');
 				this.var1 = 'hi';
 
 
