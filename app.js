@@ -5,7 +5,8 @@ new Vue({
         website: 'http://www.riyadahsan.com',
         count: 0,
         val: '',
-        cond: 'riyad'
+        cond: 'riyad',
+        arr : ['ahsan' , 'fedous' , 'riyad']
     }, 
     methods: {
     	time: function(){
