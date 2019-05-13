@@ -1,7 +1,13 @@
 <template>
   <div id="app">
     
-  <comp v-bind:Msg='msg'></comp>
+
+  <comp v-bind:Msg='msg' v-on:changeT='changeT($event)'></comp>
+  
+  <p>
+    this is root varable {{ msg }}
+  </p>
+
 
   </div>
 </template>
@@ -18,6 +24,11 @@ export default {
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
+    }
+  },
+  methods: {
+    changeT: function(event){
+      this.msg = 'hi';
     }
   }
 }
