@@ -21,7 +21,8 @@
         count: 0,
         val: '',
         cond: 'riyad',
-        arr : ['ahsan' , 'fedous' , 'riyad']
+        arr : ['ahsan' , 'fedous' , 'riyad'],
+        ref1_output: ''
     }, 
     methods: {
     	time: function(){
@@ -29,6 +30,9 @@
     	},
     	greet: function(param){
     		return 'this is param';
+    	},
+    	readRefs: function(){
+    		this.ref1_output = this.$refs.ref1.value;
     	}
     },
     computed: {
