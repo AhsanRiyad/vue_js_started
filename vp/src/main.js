@@ -1,10 +1,12 @@
 import Vue from 'vue'
 import App from './App.vue'
+import VueResource from 'vue-resource';
 
+Vue.use(VueResource);
 
-//import Comp from './comp1.vue'
+import cors from 'cors';
 
-//Vue.component('comp1' , Comp);
+Vue.use(cors);
 
 export const bus = new Vue();
 
