@@ -1,7 +1,8 @@
 new Vue({
     el: '#app',
     data: {
-        name: 'Riyad'
+        name: 'Riyad',
+        website: 'http://www.riyadahsan.com'
     }, 
     methods: {
     	time: function(){
