@@ -13,5 +13,10 @@ new Vue({
     	greet: function(param){
     		return 'this is param';
     	}
+    },
+    computed: {
+    	comp1: function(){
+    		return 'hellow';
+    	}
     }
 });
