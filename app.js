@@ -3,7 +3,8 @@ new Vue({
     data: {
         name: 'Riyad',
         website: 'http://www.riyadahsan.com',
-        count: 0
+        count: 0,
+        val: ''
     }, 
     methods: {
     	time: function(){
