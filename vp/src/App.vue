@@ -1,13 +1,19 @@
 <template>
   <div id="app">
     
-  <comp1></comp1>
+  <comp></comp>
 
   </div>
 </template>
 
 <script>
+
+import Comp from './comp1.vue'
+
 export default {
+  components: {
+    'comp' : Comp
+  },
   name: 'app',
   data () {
     return {
