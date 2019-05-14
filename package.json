@@ -1,0 +1,23 @@
+{
+  "name": "vue_js_started",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhsanRiyad/vue_js_started.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhsanRiyad/vue_js_started/issues"
+  },
+  "homepage": "https://github.com/AhsanRiyad/vue_js_started#readme",
+  "dependencies": {
+    "mongoose": "^5.5.8"
+  }
+}
