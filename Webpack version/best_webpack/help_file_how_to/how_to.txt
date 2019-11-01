@@ -1,0 +1,15 @@
+npm install -g @vue/cli-init
+
+# vue init now works exactly the same as vue-cli@2.x
+
+vue init webpack my-project
+
+
+
+
+config er vitor index js
+
+buid er path e change hobe 
+
+just '/' dilei hobe
+ 
