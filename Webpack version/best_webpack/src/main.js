@@ -5,11 +5,11 @@ import App from './App'
 import router from './router'
 
 Vue.config.productionTip = false
+Vue.component('App', App)
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
-  router,
-  components: { App },
-  template: '<App/>'
+  router
+
 })
