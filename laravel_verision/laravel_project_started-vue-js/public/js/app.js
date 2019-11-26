@@ -58840,7 +58840,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", [
-      _c("h1", [_vm._v("\r\n\tthis is a calculation components\r\n")])
+      _c("h1", [_vm._v("\n\tthis is a calculation components\n")])
     ])
   }
 ]
@@ -102352,8 +102352,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Riyad\Desktop\New folder\laravel_project_started\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Riyad\Desktop\New folder\laravel_project_started\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\Riyad\Desktop\vue_js_started\laravel_verision\laravel_project_started-vue-js\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\Riyad\Desktop\vue_js_started\laravel_verision\laravel_project_started-vue-js\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ }),
